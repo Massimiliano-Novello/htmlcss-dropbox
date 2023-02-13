@@ -18,6 +18,10 @@
     display: flex;
 }
 
+.justify-content {
+    justify-content: center;
+}
+
 /* HEADER */
 /* Nav bar */
 
@@ -51,4 +55,80 @@ h1 {
     height: 200px;
     background-color: lightblue;
 }
+
+/* MAIN */
+
+/* Second section */
+.second-section {
+    padding: 20px 0;
+    /* debug */
+    background-color: lightcoral;
+}
+
+.row {
+    gap: 10px;
+}
+
+.col {
+    width: calc(100% / 3);
+    /* debug */
+    height: 200px;
+    border: 2px solid black;
+    background-color: azure;
+}
+
+.final-col {
+    width: 100%;
+    margin-top: 10px;
+    /* debug */
+    height: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+
+/* Third section */
+.third-section {
+    padding: 20px 0;
+    /* debug */
+    background-color: lightgreen;
+}
+
+.search {
+    gap: 10px;
+}
+
+.img-2 {
+    width: 65%;
+    /* debug */
+    height: 200px;
+    background-color: lightgray;
+}
+
+.partner {
+    width: 35%;
+     /* debug */
+     height: 200px;
+     background-color: lightgray;
+}
+
+/* fourth section */
+.fourth-section {
+    padding: 20px;
+    /* debug */
+    background-color: lightyellow;
+}
+
+.row-2 {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.col-2 {
+    width: calc(100% / 3);
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
+
 
