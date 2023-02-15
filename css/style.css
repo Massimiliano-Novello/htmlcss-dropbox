@@ -74,7 +74,7 @@ p {
 
 .logo {
     width: 10%;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .price-plane {
@@ -229,7 +229,12 @@ h1 {
 }
 
 .informations li {
+    display: flex;
     padding: 8px 0;
+}
+
+.informations i {
+    margin-right: 5px;
 }
 
 .buy {
@@ -261,11 +266,13 @@ h1 {
 }
 
 .purchase-plan li {
+    display: flex;
     padding: 10px 0;
     font-size: .8rem;
 }
 
 .purchase-plan i {
+    margin-right: 5px;
     color: blue;
 }
 
@@ -373,23 +380,27 @@ padding: 15px 0 25px;
 
 /* icons section */
 .fifth-section {
-    /* debug */
-    height: 400px;
-    background-color: lightcyan;
-    border: 2px solid black;
+    height: 300px;
 }
 
 .company {
     width: 30%;
     flex-wrap: wrap;
-    /* debug */
-    border: 2px solid black;
 }
 
 .designit {
     width: 40%;
-    /* debug */
-    border: 2px solid black;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+.designit img {
+    width: 150px;
+}
+
+.designit-paragraph {
+    padding: 20px 0;
+    font-size: .8rem;
 }
 
 .grid {
@@ -399,15 +410,15 @@ padding: 15px 0 25px;
 }
 
 .logo-designit {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #D6EBD3;
 }
 
 .logo-designit img {
-    position: absolute;
-    top: 85px;
-    left: 40px;
-    width:100px;
+    width: 100px;
+    fill: white;
 }
 
 .arizona {
@@ -418,11 +429,25 @@ padding: 15px 0 25px;
     background-color: #0093CE;
 }
 
-.bicycle {
+.topps {
     background-color: #FF1C1C;
 }
 
+.bicycle {
+    background-color: #D5001F;
+}
 
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonely {
+    background-color: #0D2481;
+}
+
+.clear {
+    background-color: #FFEA8E;
+}
 
 /* sixth section */
 .sixth-section {
@@ -475,7 +500,7 @@ padding: 15px 0 25px;
     justify-content: space-between;
 }
 
-
+.
 /* FOOTER */
 .footer {
     padding: 60px 0;
